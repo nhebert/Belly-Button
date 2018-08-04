@@ -26,19 +26,7 @@ def hello():
     
 @app.route("/names")
 def sampleNames():
-    """List of sample names.
-    Returns a list of sample names in the format
-    [
-        "BB_940",
-        "BB_941",
-        "BB_943",
-        "BB_944",
-        "BB_945",
-        "BB_946",
-        "BB_947",
-        ...
-    ]
-    """
+
     sampleNames = getSampleNames()
 
     return json.dumps(sampleNames)

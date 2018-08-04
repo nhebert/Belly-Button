@@ -1,6 +1,6 @@
 def getSampleNames():
     # assign the db's uniform resource identifier to a variable
-    db_uri = 'sqlite:///DataSets/belly_button_biodiversity.sqlite'
+    db_uri = 'sqlite:///DataSets/bellybutton.sqlite'
 
     #connect to the db using create_engine():
     from sqlalchemy import create_engine
@@ -35,7 +35,7 @@ def getSampleNames():
 
 def getOTUbySamples(sample_id):
     # assign the db's uniform resource identifier to a variable
-    db_uri = 'sqlite:///DataSets/belly_button_biodiversity.sqlite'
+    db_uri = 'sqlite:///DataSets/bellybutton.sqlite'
 
     #connect to the db using create_engine():
     from sqlalchemy import create_engine
@@ -76,7 +76,7 @@ def getOTUbySamples(sample_id):
 
 def getSampleMetaData(sample_id):
     # assign the db's uniform resource identifier to a variable
-    db_uri = 'sqlite:///DataSets/belly_button_biodiversity.sqlite'
+    db_uri = 'sqlite:///DataSets/bellybutton.sqlite'
 
     #connect to the db using create_engine():
     from sqlalchemy import create_engine
@@ -120,7 +120,7 @@ def getSampleMetaData(sample_id):
 
 def getWashingFreq(sample_id):
     # assign the db's uniform resource identifier to a variable
-    db_uri = 'sqlite:///DataSets/belly_button_biodiversity.sqlite'
+    db_uri = 'sqlite:///DataSets/bellybutton.sqlite'
 
     #connect to the db using create_engine():
     from sqlalchemy import create_engine

@@ -26,8 +26,8 @@ function dropDown() {
     });
 }
 // call back function to get data on change select to update the table
-function getDataTable(sample_id) {
-    var url_meta = "/metadata/" + sample_id;
+function getDataTable(sample) {
+    var url_meta = "/metadata/" + sample;
 
     Plotly.d3.select("tbody").html("");
 
